@@ -10,7 +10,7 @@ const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const handleLogin = (username, password) => {
-    if (username === "admin" && password === "password") {
+    if (username === "user" && password === "qwerty") {
       setIsLoggedIn(true);
     } else {
       alert("Invalid credentials!");
