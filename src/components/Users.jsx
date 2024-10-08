@@ -17,7 +17,7 @@ const Users = () => {
     const fetchUsers = async () => {
       try {
         const response = await fetch(
-          "http://localhost:4000/users"
+          "https://mobzwaytask-48g9.onrender.com/users"
         );
         const data = await response.json();
         setRows(data);

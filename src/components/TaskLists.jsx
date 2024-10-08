@@ -25,7 +25,7 @@ const TaskLists = () => {
       setLoading(true);
       try {
         const response = await axios.get(
-          "http://localhost:4000/tasklists"
+          "https://mobzwaytask-48g9.onrender.com/tasklists"
         );
         const formattedData = [];
 
